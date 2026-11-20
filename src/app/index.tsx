@@ -1,11 +1,7 @@
 import { useRouter } from "expo-router";
-import {
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+
 export default function HomeScreen() {
   const router = useRouter();
   return (
